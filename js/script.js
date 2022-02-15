@@ -1,4 +1,4 @@
-const currlocation = (document.URL == 'http://localhost/int220/')?'en':'hi';
+const currlocation = (document.URL == 'https://netflix-clone-kaustubh.herokuapp.com/')?'en':'hi';
 function toggleExpand(params){
     var svg = document.getElementById("svg"+params);
     var desc = document.getElementById("desc"+params);
@@ -156,9 +156,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const lang1 = document.getElementById("lang1");
     const lang2 = document.getElementById("lang2");
     lang1.addEventListener('change',event => {
-        if(lang1[lang1.selectedIndex].value == 'hi' && document.URL=='http://localhost/int220/'){
+        if(lang1[lang1.selectedIndex].value == 'hi' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/'){
             window.location.href = '/int220/in-hi/';
-        } else if(lang1[lang1.selectedIndex].value == 'en' && document.URL=='http://localhost/int220/in-hi/'){
+        } else if(lang1[lang1.selectedIndex].value == 'en' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/in-hi/'){
+            window.location.href = '/int220/';
+        }
+    });
+    lang2.addEventListener('change',event => {
+        if(lang1[lang1.selectedIndex].value == 'hi' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/'){
+            window.location.href = '/int220/in-hi/';
+        } else if(lang1[lang1.selectedIndex].value == 'en' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/in-hi/'){
             window.location.href = '/int220/';
         }
     });

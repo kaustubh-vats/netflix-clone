@@ -61,7 +61,7 @@
     outline: 2px solid #000;
     outline-offset: -2px;
     display: block;
-    background: url(/int220/imgs/download-icon.gif) center center no-repeat;
+    background: url(/imgs/download-icon.gif) center center no-repeat;
     background-size: 100%;
     content: '';
     flex-grow: 0;
