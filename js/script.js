@@ -157,9 +157,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const lang2 = document.getElementById("lang2");
     lang1.addEventListener('change',event => {
         if(lang1[lang1.selectedIndex].value == 'hi' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/'){
-            window.location.href = '/int220/in-hi/';
+            window.location.href = '/in-hi/';
         } else if(lang1[lang1.selectedIndex].value == 'en' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/in-hi/'){
-            window.location.href = '/int220/';
+            window.location.href = '/';
         }
     });
     lang2.addEventListener('change',event => {
