@@ -1,0 +1,102 @@
+.bg__netflix{
+    width: 100vw;
+    height: 100vh;
+}
+.bg__netflix_img{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.shadow{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.container h1{
+    font-size: 3.5rem;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container h3, .label__hero_entry{
+    font-weight: lighter;
+}
+.container h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.label__hero_entry{
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+.parent__label{
+    position: relative;
+}
+.warning_label{
+    color: #EF8317;
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    display: none;
+}
+.hero__label{
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #757575;
+    display: none;
+}
+.email_entry:focus{
+    outline: none;
+}
+.email_entry:focus::placeholder{
+    color: transparent;
+}
+.container__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email_entry{
+    color: black;
+    width: 30vw;
+    padding: 1.46rem 1.375rem;
+    margin: 20px 0px;
+}
+.subscribe{
+    padding: 1.2rem 1.375rem;
+    font-size: 1.62rem;
+    margin: 20px 0px;
+}
+@keyframes pushup {
+    from{
+        transform: scale(1) translate(0%,-50%) ;
+        top: 50%;
+        left: 25px;
+    } to {
+        transform: scale(0.7) translate(0%,0%) ;
+        top: 20%;
+        left: 10px;
+    }
+}

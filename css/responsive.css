@@ -1,0 +1,218 @@
+@media screen and (max-width: 1237px) {
+    .container__form{
+        flex-direction: column;
+    }
+    .subscribe{
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+    .email_entry{
+        width: 45vw;
+        margin: 10px 0px;
+        padding: 1rem 1.375rem;
+    }
+}
+@media screen and (max-width: 1402px) {
+    .container h1{
+        font-size: 2.7rem;
+    }
+    .container h3{
+        font-size: 1.3rem;
+    }
+    .label__hero_entry{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 900px){
+    .container h1{
+        font-size: 2.5rem;
+    }
+    .container h3{
+        font-size: 1.2rem;
+    }
+    .label__hero_entry{
+        font-size: 0.8rem;
+    }
+    .email_entry{
+        padding: 0.8rem 1.375rem;
+    }
+    .svg-icon-netflix-logo{
+        width: 120px;
+    }
+    .login{
+        padding: 5px 14px;
+    }
+    .select__lang{
+        padding: .39rem 1.375rem;
+    }
+    option{
+        padding: .39rem 1.375rem;
+        font-size: .8rem;
+    }
+    .lang__select{
+        font-size: .8rem;
+    }
+    .select__lang_footer{
+        padding: .39rem 1.375rem;
+    }
+    .lang__select__footer::after{
+        right: 25px;
+    }
+    .lang__select__footer::before{
+        left: 4px;
+    }
+    footer div{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 701px) {
+    .container h1{
+        font-size: 2rem;
+    }
+    .container h3{
+        font-size: 1.3rem;
+    }
+    .label__hero_entry{
+        font-size: 1rem;
+    }
+    .email_entry{
+        padding: 0.6rem 1.375rem;
+    }
+    .svg-icon-netflix-logo{
+        width: 100px;
+    }
+    .login{
+        padding: 5px 10px;
+    }
+    option{
+        font-size: .6rem;
+    }
+    .lang__select{
+        font-size: .6rem;
+    }
+    .footer_list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 80vw;
+    }
+    .svg-icon-netflix-logo{
+        width: 60px;
+    }
+    .header__container{
+        gap: 10px;
+    }
+    .bg__netflix{
+        height: 80vh;
+    }
+    .shadow{
+        height: 80vh;
+    }
+    .email_entry{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 850px){
+    .tv__flex{
+        flex-direction: column;
+    }
+    .mobile_flex{
+        flex-direction: column-reverse;
+    }
+    .tv__text{
+        width: 80%;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .tv__title{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .faq__title{
+        font-size: 2.5rem;
+    }
+    .tv__desc{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .tv__anim_container{
+        width: 80%;
+    }
+    .mobile__img_container{
+        margin: 0px;
+    }
+    .mobile__anim_container{
+        width: 80%;
+    }
+    .mobile__text{
+        width: 80%;
+    }
+    .faq__list{
+        width: 80%;
+    }
+    .faq__list_title{
+        font-size: 1.2rem;
+    }
+    .faq__desc{
+        font-size: 1.2rem;
+    }
+    .thin-x{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .tv__text{
+        width: 95%;
+    }
+    .tv__title{
+        font-size: 1.8rem;
+    }
+    .faq__title{
+        font-size: 1.8rem;
+    }
+    .tv__desc{
+        font-size: 1rem;
+    }
+    .tv__anim_container{
+        width: 95%;
+    }
+    .tv__container{
+        padding: 40px 25px;
+    }
+    .mobile__anim_container{
+        width: 95%;
+    }
+    .mobile__text{
+        width: 95%;
+    }
+    .mobile__anim_container_sec{
+        min-width: 12em;
+    }
+    #mobile__anim_text_1{
+        font-size: 1rem;
+    }
+    #mobile__anim_text_2{
+        font-size: 0.7rem;
+    }
+    .faq__list{
+        width: 95%;
+    }
+    .faq__list_title{
+        font-size: 1rem;
+    }
+    .faq__desc{
+        font-size: 1rem;
+    }
+    .thin-x{
+        font-size: 0.7rem;
+    }
+    .footer_list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+        padding-bottom: 80px;
+    }
+}
