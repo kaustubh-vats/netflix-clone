@@ -163,9 +163,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     lang2.addEventListener('change',event => {
-        if(lang1[lang1.selectedIndex].value == 'hi' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/'){
+        if(lang2[lang2.selectedIndex].value == 'hi' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/'){
             window.location.href = '/in-hi/';
-        } else if(lang1[lang1.selectedIndex].value == 'en' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/in-hi/'){
+        } else if(lang2[lang2.selectedIndex].value == 'en' && document.URL=='https://netflix-clone-kaustubh.herokuapp.com/in-hi/'){
             window.location.href = '/';
         }
     });
